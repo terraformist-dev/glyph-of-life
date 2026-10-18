@@ -65,7 +65,7 @@ class LifeToyService : Service() {
     private val power by lazy { getSystemService(Context.POWER_SERVICE) as PowerManager }
     private val sensorManager by lazy { getSystemService(Context.SENSOR_SERVICE) as SensorManager }
     private val wakeLock by lazy {
-        power.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "GlyphLife:animation").apply {
+        power.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "GlyphOfLife:animation").apply {
             setReferenceCounted(false)
         }
     }
@@ -319,7 +319,7 @@ class LifeToyService : Service() {
     }
 
     companion object {
-        private const val TAG = "GlyphLife"
+        private const val TAG = "GlyphOfLife"
         private const val ACTIVE_MS = 60_000L
         private const val LISTEN_MS = 8_000L
         private const val FRAME_MS = 50L

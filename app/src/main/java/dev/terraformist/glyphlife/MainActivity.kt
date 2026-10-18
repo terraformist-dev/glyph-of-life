@@ -191,7 +191,7 @@ class MainActivity : Activity() {
             setBackgroundColor(Color.BLACK)
         }
 
-        column.addView(label("GLYPH LIFE"))
+        column.addView(label("GLYPH OF LIFE"))
         column.addView(gap(28))
 
         bitmap = DotPainter.paint(IntArray(Disc.CELLS), 32)

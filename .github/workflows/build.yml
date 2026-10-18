@@ -28,20 +28,20 @@ jobs:
           ./gradlew assembleDebug --stacktrace
 
       - name: Name the file
-        run: cp app/build/outputs/apk/debug/app-debug.apk glyph-life.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk glyph-of-life.apk
 
       - name: Keep a copy with this run
         uses: actions/upload-artifact@v4
         with:
-          name: glyph-life-apk
-          path: glyph-life.apk
+          name: glyph-of-life-apk
+          path: glyph-of-life.apk
 
       - name: Publish as the latest download
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "build-${{ github.run_number }}" glyph-life.apk \
+          gh release create "build-${{ github.run_number }}" glyph-of-life.apk \
             --target "${{ github.sha }}" \
-            --title "Glyph Life · build ${{ github.run_number }}" \
-            --notes "Tap **glyph-life.apk** below to download, then open it to install." \
+            --title "Glyph of Life · build ${{ github.run_number }}" \
+            --notes "Tap **glyph-of-life.apk** below to download, then open it to install." \
             --latest

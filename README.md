@@ -16,9 +16,9 @@ The app shows the same thing live, and is where you choose the seed style and th
 ## Getting the app onto your phone
 
 1. On your phone, open **Releases → Latest** on this repo's GitHub page.
-2. Tap **glyph-life.apk** to download it.
+2. Tap **glyph-of-life.apk** to download it.
 3. Open the download and tap **Install** (allow your browser to install apps the first time).
-4. Go to **Settings › Glyph Interface › Glyph Toys** and add **Glyph Life**.
+4. Go to **Settings › Glyph Interface › Glyph Toys** and add **Glyph of Life**.
 
 New builds install over the old one.
 

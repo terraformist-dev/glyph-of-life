@@ -1,8 +1,8 @@
-# Glyph Life (repo glyph-life): notes for Claude
+# Glyph of Life (repo glyph-of-life): notes for Claude
 
 Owner has no coding experience and works only from a phone. Explain changes in plain English,
 never ask them to run commands, and always finish by pushing to `main` and confirming the
-GitHub Actions build went green (the build publishes `glyph-life.apk` as the latest release).
+GitHub Actions build went green (the build publishes `glyph-of-life.apk` as the latest release).
 
 ## Project
 
@@ -14,6 +14,11 @@ borrow proven patterns from there.
 
 The debug build is signed with `app/glyphlife.keystore` (committed on purpose) so updates
 install over the old app. Don't change the key or applicationId.
+
+Naming: the owner renamed the app from "Glyph Life" to "Glyph of Life" (repo renamed from
+glyph-life). Everything people see says "Glyph of Life" and the APK is `glyph-of-life.apk`; the
+package, applicationId, keystore and Kotlin identifiers keep `glyphlife` so updates still install
+over earlier builds. The README is partly the owner's own wording: keep it.
 
 ## What it does (agreed with the owner from an interactive sketch)
 
