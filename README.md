@@ -1,6 +1,6 @@
-# Glyph Life
+# Glyph of Life
 
-Conway's Game of Life on the round Glyph Matrix on the back of the Nothing Phone (3). Ambient dot art that never repeats.
+Conway's Game of Life on the round Glyph Matrix on the back of the Nothing Phone (3).
 
 - **Shake** the phone for a new colony.
 - **Long-press** the Glyph Button for the next seed style:
