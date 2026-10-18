@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glyph Life</string>
+    <string name="toy_summary">Conway\'s Game of Life, always evolving. Shake for a new colony; long-press for the next seed style.</string>
+</resources>
